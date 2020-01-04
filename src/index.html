@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- <link type="text/css" rel="stylesheet" href="../../FontAwesome/fontawesome-free-5.11.2-web/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+        integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+    <title>Portfolio Grid Css</title>
+</head>
+<body>
+    <div class="container">
+        <header id="main-header" class="header">
+            <div class="header__avatar">
+                <img class="header__img" src="../img/Mads_Mikkelsen.jpeg" alt="person">
+            </div>
+            <div class="header__name grid">
+                <h1 class="header__title">Some Name</h1>
+                <div class="header__socials grid">
+                    <div>
+                        <a class="header__socials-link" href="http://instagram.com">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="header__socials-link" href="http://youtube.com">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="header__socials-link" href="http://github.com">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="header__socials-link" href="http://facebook.com">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__profession">
+                Web Developer
+            </div>
+
+            <div class="header__tabs tabs grid">
+                <div class="tabs__item tabs__item--home">
+                    <i class="fas fa-home fa-2x d-block"></i>
+                    <span>Home</span>
+                </div>
+                <div class="tabs__item tabs__item--resume">
+                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                    <span>Resume</span>
+                </div>
+                <div class="tabs__item tabs__item--work">
+                    <i class="fas fa-folder-open fa-2x d-block"></i>
+                    <span>Work</span>
+                </div>
+                <div class="tabs__item tabs__item--contact">
+                    <i class="fas fa-envelope fa-2x d-block"></i>
+                    <span>Contact</span>
+                </div>
+            </div>
+        </header>
+
+
+    
+
+    <div class="main">
+
+        <!-- HOME -->
+
+        <div id="home" class="main__content show">
+            <div class="main__header--home">
+                <h2 class="title-h2">Welcome To My Page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit cum amet voluptates deleniti consequuntur?</p>
+            </div>
+
+            <div class="main__skills">
+                <h3 class="title-h3">My Skills</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur fuga sunt iste. Quam architecto ab enim eos? Qui, dolor.</p>
+                <hr>
+                <h4 class="title-h4">HTML5</h4>
+                <div class="progress-line">
+                    <div class="progress-line--status bar-1"></div>
+                </div>
+                <h4 class="title-h4">CSS3</h4>
+                <div class="progress-line">
+                    <div class="progress-line--status bar-2"></div>
+                </div>
+                <h4 class="title-h4">JavaScript</h4>
+                <div class="progress-line">
+                    <div class="progress-line--status bar-3"></div>
+                </div>
+                <h4 class="title-h4">WebPack</h4>
+                <div class="progress-line">
+                    <div class="progress-line--status bar-4"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RESUME -->
+
+        <div id="resume" class="main__content">
+            <div class="main__header--resume">
+                <h2 class="title-h2">My Resume</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit cum amet voluptates deleniti consequuntur?
+                </p>
+            </div>
+
+            <div class="main__work">
+                <h3 class="title-h3">Where I Have Worked</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto quam blanditiis praesentium. Illum, ducimus!</p>
+                <div class="main__boxes-container">
+                    <div class="box">
+                        <div class="box__body">
+                            <h4 class="title-h4">Spider Dev</h4>
+                            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellendus.</p>
+                            <p class="box__accent">Position: Full Stack Developer</p>
+                            <p class="box__accent">Phone: (777) 777-7777</p>
+                        </div>
+                        <div class="box__footer">
+                            <h6 class="title-h6">Dates: 2015-2017</h6>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box__body">
+                            <h4 class="title-h4">777 Designs</h4>
+                            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellendus.</p>
+                            <p class="box__accent">Web Designer</p>
+                            <p class="box__accent">Phone: (555) 555-5555</p>
+                        </div>
+                        <div class="box__footer">
+                            <h6 class="title-h6">Dates: 2013-2015</h6>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box__body">
+                            <h4 class="title-h4">Design Master</h4>
+                            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellendus.</p>
+                            <p class="box__accent">Web Designer</p>
+                            <p class="box__accent">Phone: (999) 999-9999</p>
+                        </div>
+                        <div class="box__footer">
+                            <h6 class="title-h6">Dates: 2010-2013</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- WORK -->
+
+        <div id="work" class="main__content">
+            <div class="main__header--work">
+                <h2 class="title-h2">My Work</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit cum amet voluptates deleniti consequuntur?
+                </p>
+            </div>
+
+            <div class="gallery">
+                <h3 class="title-h3">What Have I Build</h3>
+                <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eum exercitationem iste modi autem quam.</p>
+                <div class="gallery__inner">
+                    <div class="gallery__item">
+                        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=252" alt="pic-1" class="gallery__img">
+                        </a>
+                    </div>
+                    <div class="gallery__item">
+                        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=253" alt="pic-1" class="gallery__img">
+                        </a>
+                    </div>
+                    <div class="gallery__item">
+                        <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=254" alt="pic-1" class="gallery__img">
+                        </a>
+                    </div>
+                    <div class="gallery__item">
+                        <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+                            <img src="https://unsplash.it/600.jpg?image=255" alt="pic-1" class="gallery__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+
+        <div id="contact" class="main__content">
+            <div class="main__header--contact">
+                <h2 class="title-h2">Contact</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit cum amet voluptates deleniti consequuntur?
+                </p>
+            </div>
+
+            <form class="form">
+                <div class="form__input-container">
+                    <div class="form__icon-container">
+                        <span class="form__input-icon">
+                            <i class="fas fa-user"></i>
+                        </span>
+                    </div>
+                    <input class="form__input" type="text" placeholder="Name">
+                </div>
+
+                <div class="form__input-container">
+                    <div class="form__icon-container">
+                        <span class="form__input-icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </div>
+                    <input class="form__input" type="email" placeholder="Email">
+                </div>
+
+                <div class="form__input-container">
+                    <div class="form__icon-container">
+                        <span class="form__input-icon">
+                            <i class="fas fa-pencil-alt"></i>
+                        </span>
+                    </div>
+                    <textarea class="form__textarea" placeholder="Text"></textarea>
+                </div>
+
+                <input class="form__submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer id="main-footer" class="footer">
+        <a href="#" class="footer__btn">
+            <i class="fas fa-cloud-download-alt"></i> Download Resume
+        </a>
+        <a class="footer__link" href="https://en.wikipedia.org/wiki/Mads_Mikkelsen">
+            Photo - Mads Mikkelsen
+        </a>
+    </footer>
+
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+        integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+        });   
+    </script>
+</body>
+</html>

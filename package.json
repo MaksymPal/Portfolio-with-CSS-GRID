@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-grid-css",
+  "version": "1.0.0",
+  "description": "css, grid, js, webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "auto-build": "webpack --watch"
+  },
+  "author": "Maksym Palamarchuk",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
